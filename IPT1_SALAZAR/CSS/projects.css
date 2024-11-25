@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://i.pinimg.com/736x/a1/6c/64/a16c64a0e98668626b75cfa5e54871ed.jpg"); /* Use the uploaded file */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    padding: 15px;
+    background-color: #5a8fb7;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.text-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.text-buttons a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+    padding: 50px;
+    background-color: #caf3f7;
+}
+
+.projects-section {
+    text-align: center;
+    padding: 50px 20px;
+    margin-top: 50px;
+
+}
+
+.projects-section h1 {
+    margin-bottom: 60px;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.projects-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.project-item {
+    width: 400px;
+    text-align: center;
+}
+
+.project-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project-item p {
+    margin-top: 10px;
+    font-size: 16px;
+}

@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bcf2f8;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #050505;
+    padding: 20px;
+    margin-right: 150px;
+    margin-top: 150px;
+    padding: 5px;
+    padding-bottom: 80px;
+    background-color: #B0E0E6;
+    margin-left: 150px;
+}
+
+.bottom-button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #7dcfe8;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container img {
+    width: 40%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 8%;
+    margin-left: 0;
+    max-width: 200px;
+}
+
+.container h1 {
+    font-size: 24px;
+    margin-left: 20px;
+    margin-top: 80px;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.image-section {
+    width: 50%;
+    margin: 20px;
+    position: relative;
+    left: 0;
+}
+.text-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    padding: 15px;
+    background-color: #5a8fb7;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.text-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.text-buttons a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.text {
+    width: 25%;
+}
+
+.text p {
+    margin: 10px 0;
+}
+
+.headings {
+    width: 25%;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 50%;
+}
+
+.grid-item {
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.heading-box {
+    width: 25%;
+    padding: 20px;
+    background-color: #e0e0e0;
+    text-align: center;
+}

@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #f9ecda;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .contact-section {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    gap: 40px;
+    background: #eaeaea;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 100px;
+  }
+  
+  .contact-info {
+    flex: 1;
+  }
+  
+  .contact-info h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #222;
+  }
+  
+  .contact-info p {
+    margin-bottom: 20px;
+    color: #666;
+  }
+  .text-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    padding: 15px;
+    background-color: #5a8fb7;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.text-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.text-buttons a {
+    text-decoration: none;
+    color: inherit;
+
+}
+  .contact-info ul {
+    list-style: none;
+  }
+  
+  .contact-info li {
+    margin-bottom: 10px;
+    color: #444;
+  }
+  
+  .contact-info strong {
+    color: #222;
+  }
+  
+  .contact-form {
+    flex: 1;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .contact-form .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .contact-form .cta-button:hover {
+    background: #0056b3;
+  }
+  
